@@ -711,6 +711,15 @@ button { font: inherit; cursor: pointer; }
   width: 140px; height: 140px;
   background: radial-gradient(circle, rgba(201,169,97,.45), transparent 70%);
 }
+.bonus-cover > img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+  z-index: 2;
+}
 .bonus-cover span {
   font-family: var(--ff-display); font-size: .7rem; font-weight: 700; letter-spacing: .2em;
 }
