@@ -669,7 +669,7 @@ button { font: inherit; cursor: pointer; }
 /* ============== S7: Bonus Rail ============== */
 .bonus-rail {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
 @media (max-width: 720px) {
